@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply block w-full p-4 text-center rounded-lg font-semibold;
+    }
+
+    .btn-primary {
+        @apply bg-primary text-white;
+    }
+
+    .input-style {
+        @apply block border-2 border-solid rounded-md p-4 w-full focus-visible:outline-primary;
+    }
+}
